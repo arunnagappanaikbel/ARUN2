@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />-->
+    <link rel="stylesheet" href="WEBSITE.css" />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <div>
+    <header>
+      <div class="logo-container">
+        <img src="logo.svg" alt="logo" />
+        <h4 class="logo"></h4>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#">about</a></li>
+          <li><a class="nav-link" href="#">skills</a></li>
+          <li><a class="nav-link" href="#">service</a></li>
+        </ul>
+      </nav>
+      <!--<div class="cart">
+        <img src="cart.svg" alt="cart" />
+      </div>-->
+    </header>
+
+    <main>
+      <section class="presentation">
+        <div class="introduction">
+          <div class="intro-text">
+            <h1>never give up</h1>
+            <p>
+              working in enquero global as a software engineer. completed BE
+              from RV college banaglore.
+            </p>
+          </div>
+          <!--<div class="cta">
+            <button class="cta-select">14 Inch</button>
+            <button class="cta-add">Add To Cart</button>
+          </div>-->
+        </div>
+        <div class="cover">
+          <img src="arun.png" alt="matebook" />
+        </div>
+      </section>
+
+      <div class="laptop-select">
+        <h3>software engineer</h3>
+      </div>
+      <img class="big-circle" src="big-eclipse.svg" alt="" />
+      <img class="medium-circle" src="mid-eclipse.svg" alt="" />
+      <img class="small-circle" src="small-eclipse.svg" alt="" />
+      <section class="bbb">
+        <div class="aabb">
+        <h3>gallery</h3>
+        <div class="slideshow-container">
+          <div class="myslides fade">
+            <div class="numbers">1 / 4</div>
+
+            <div><img src="img1.jpg" /></div>
+
+            <div class="caption">Text 1</div>
+          </div>
+
+          <div class="myslides fade">
+            <div class="numbers">2 / 4</div>
+
+            <div><img src="img4.jpg" width="300"/></div>
+
+            <div class="caption">Text 2</div>
+          </div>
+
+          <div class="myslides fade">
+            <div class="numbers">3 / 4</div>
+
+            <div><img src="img3.png" /></div>
+
+            <div class="caption">Text 3</div>
+          </div>
+
+          <div class="myslides fade">
+            <div class="numbers">4 / 4</div>
+
+            <div><img src="img2.jpg" height="350" /></div>
+
+            <div class="caption">Text 4</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <br />
+
+        <div style="align-self: baseline">
+          <span class="dots" onclick="currentSlide(1)"></span>
+
+          <span class="dots" onclick="currentSlide(2)"></span>
+
+          <span class="dots" onclick="currentSlide(3)"></span>
+
+          <span class="dots" onclick="currentSlide(4)"></span>
+        </div>
+
+        <script type="text/javascript">
+          var slideIndex = 1;
+
+          showSlide(slideIndex);
+
+          function plusSlides(n) {
+            showSlide((slideIndex += n));
+          }
+
+          function currentSlide(n) {
+            showSlide((slideIndex = n));
+          }
+
+          function showSlide(n) {
+            var i;
+
+            var slides = document.getElementsByClassName("myslides");
+
+            var dots = document.getElementsByClassName("dots");
+
+            if (n > slides.length) {
+              slideIndex = 1;
+            }
+
+            if (n < 1) {
+              slideIndex = slides.length;
+            }
+
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+            dots[slideIndex - 1].className += " active";
+          }
+        </script>
+      </section>
+      <!--<section class="arun">
+        <div class="aa">
+            <h3>work expirience</h3>
+            <p>hello this field is for work expirience</p>
+        </div>
+    <div class="aa">
+        <h3>education</h3>
+        <p>hello this field is for work expirience</p>
+  </div>
+  <div class="aa">
+      <h3>services</h3>
+      <p>hello this field is for work expirience</p>
+    </div>
+      </section>-->
+    </div>
+   </main>
+  </body>
+</html>
